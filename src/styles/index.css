@@ -10,3 +10,48 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container {
+    margin-top: 100px;
+    background-color: #3498DB;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.title {
+    border-bottom: 2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: black;
+}
+
+.caja {
+    display: flex;
+    margin-top: 30px;
+}
+
+.tasks {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.grupo {
+    margin-top: 10px;
+    background-color: #74C3F7;
+    border-radius: 10px;
+}
+
+.cruz {
+    border: none;
+    background: none;
+    color: rgb(134, 25, 25);
+}
+
+.suma{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
